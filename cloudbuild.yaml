@@ -18,3 +18,4 @@ images:
 - gcr.io/$PROJECT_ID/$REPO_NAME:$COMMIT_SHA
 substitutions:
     _SERVICE_NAME: flask-hello-world
+    _LOCATION: us-central1
