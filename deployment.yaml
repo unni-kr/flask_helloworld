@@ -2,7 +2,7 @@
 apiVersion: apps/v1
 kind: Deployment
 metadata:
-  name: model-service-deployment
+  name: flask-helloworld-deployment
   labels:
     app: web
 spec:
@@ -30,7 +30,7 @@ spec:
 apiVersion: v1
 kind: Service
 metadata:
-  name: model-service-service
+  name: flask-helloworld-service
 spec:
   selector:
     app: web
